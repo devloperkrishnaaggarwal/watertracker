@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Water Tracker</title>
+  </head>
+  <body>
+    <h1>Water Tracker</h1>
+    <div class="container">
+      <div class="part1">
+        <label for="liter">How many liters you want to drink</label>
+        <div class="inputs">
+          <input type="number" id="liter" />
+          <button id="start-btn">Start</button>
+        </div>
+        <div class="cup" id="cup">
+          <div class="remaining" id="remaining"></div>
+          <div class="completed" id="completed"></div>
+        </div>
+      </div>
+      <div class="part2">
+        <h3 class="none">Number of glasses you have drank</h3>
+        <div class="cupbox none" id="cupbox">
+          <div class="cup cup-sm blank">250ml</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
